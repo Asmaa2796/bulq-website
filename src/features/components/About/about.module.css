@@ -1,0 +1,30 @@
+.about {
+    background-color: var(--dark-color);
+    position: relative;
+}
+.about::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    transform: translateX(-24%) translatey(2%);
+    top: 0;
+    width: 76%;
+    height: 93%;
+    background-image: url("../../../../public/logos/8.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.about_div {
+    height: 200px;
+    background-color: var(--basic-color);
+    background-image: url('../../../../public/logos/11.png');
+    background-position: center;
+    background-size: 24%;
+    background-repeat: repeat;
+}
+.about_text {
+    color: var(--basic-color);
+}
+.about_text img {width: auto;max-height: 56px;}
+.about_img {margin-left: 60px;}

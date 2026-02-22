@@ -1,0 +1,15 @@
+.hero_section {
+    background-color: var(--main-color);
+    height: 550px;
+    display: flex;
+    align-items: center;
+    background-image: url('../../../../public//logos/9.png');
+    background-position: right;
+    background-size: 38%;
+    background-repeat: no-repeat;
+}
+.hero_text {
+    width: 100%;
+    padding: 20px;
+}
+.hero_text h1 {font-size: 47px;}

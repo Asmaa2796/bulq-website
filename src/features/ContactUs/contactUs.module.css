@@ -1,0 +1,29 @@
+.contact_us {
+    background-color: #fdfdfd;
+}
+.contact_us form button {
+    background-color: var(--sub-color);
+    padding: 8px;
+    color: var(--basic-color);
+    margin: 20px 0 0;
+    border: none;
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+}
+.contact_txt_card {
+    display: flex;
+    align-items: start;
+}
+.contact_txt_card div:nth-child(1) {
+    background-color: #507aff4a;
+    color: var(--sub-color);
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 2.4em;
+}
+.contact_txt_card p {margin: 0;}

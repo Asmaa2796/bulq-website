@@ -1,0 +1,27 @@
+.solutions {background-color: #fcfcfc;}
+.solution_card {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0 10px;
+    -webkit-box-shadow: 0px 10px 13px -7px #0000001b, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #0000001b, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+.solution_card p {font-size: 15px;}
+.solution_card ul li {
+    background-color: #fcfcfc;
+    padding: 5px 20px;
+    font-size: small;
+    margin-right: 5px;
+    border-radius: 25px;
+    border: 1px solid #eee;
+}
+.icon {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+    background-color: var(--sub-color);
+    border-radius: 5px;
+    text-align: center;
+    color: var(--basic-color);
+    line-height: 2.9em;
+}

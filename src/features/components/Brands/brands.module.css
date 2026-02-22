@@ -1,0 +1,31 @@
+.brandCard {
+    background-color: var(--basic-color);
+    padding: 20px;
+    position: relative;
+    margin-top: 30px;
+}
+.brandCard::before {
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: -40px;
+    width: 36%;
+    height: 95%;
+    background-image: url("../../../../public/logos/9.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: rotate(180deg) translateX(-30%);
+    opacity: .1;
+    z-index: -1;
+}
+
+.brandCard img {
+    width: auto;
+    max-height: 30px;
+    margin: auto;
+}
+
+.swiper {
+    height: 190px;
+}
